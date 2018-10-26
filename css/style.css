@@ -1,149 +1,72 @@
 @charset "utf-8";
-*{
-	margin:0px;
+*{ 
+	margin: 0px;
 }
-.logo{
+.header{
+	background-color: darkgray;
+	margin-bottom: 50px;
+}
+img{
+	object-position: center;
+	margin-bottom: 50px;
+	display:block;
+	margin:auto;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.frase{
+	text-align: center;
+	font-family: "Century Gothic";
+	font-size: 2em;
 	display: block;
 	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 30px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
-.box{
-	font-family: "Century Gothic";
-	font-size: 2em;
+.titulo{
 	text-align: center;
-	color: white;
-	float: left;
-	width: 29.3%;
-	background-color:#B0D184 ;
-	height:auto;
-	margin-top: 15px;
-	margin-bottom: 60px;
-	margin-right: 2%;
-	margin-left: 2%;
+	font-family: "Century Gothic";
+	font-size: 3em;
+	display: block;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
-hr{
-	height: 5px;
-	margin-top: 30px;
-	margin-bottom: 130px;
-	margin-left: 20px;
-	margin-right: 20px;
-	float: none;
-	clear: both;
 
-}
-.imagen{
-	float: left;
-	width: 23.3%;
-	/*height: 200px;*/
-	margin-top: 130;
-	margin-bottom: 130px;
-	margin-right: 5%;
-	margin-left: 5%;
-}
-.texto{
+.subtitulos{
+	text-align: left;
 	font-family: "Century Gothic";
 	font-size: 1.5em;
-	color: black;
 	display: block;
-	margin-top: 35px;
-	margin-bottom: 50px;
-	margin-right: 130px;
-	margin-left: 130px;
-	
+	margin: auto;
+	padding-bottom: 30px;
+	padding-top: 10px;
 }
-.texto1{
-	font-family: "Century Gothic";
-	font-size: 2.5em; 
+
+
+.cuerpotexto{
 	text-align: justify;
-	color: black;
-	float: none;
-	clear: both;
+	font-family: "Century Gothic";
+	font-size: 1.5em;
 	display: block;
-	height:auto;
-	margin-bottom: 35px;
-	margin-left:130px;
+	margin: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
-.imagen2{
-	margin-top: 100px;
-	margin-bottom: 50px;
-	width: 80%;
-	margin-right: 10%;
-	margin-left: 10%;
-	
-}
-.box1{
-	font-family: "Century Gothic";
-	font-size: 2em;
+.subtitulos2{
 	text-align: center;
-	color: white;
-	float: left;
-	width: 30%;
-	background-color:#B0D184 ;
-	height:auto;
-	margin-right: 10%;
-	margin-left: 10%;
-	margin-top: 15px;
-	margin-bottom: 130px;
-}
-.box3{
 	font-family: "Century Gothic";
-	font-size: 2em;
-	text-align: center;
-	color: white;
-	float: right;
-	width:350px;
-	background-color: #B0D184;
-	height:auto;
-	margin-top: 15px;
-	margin-bottom: 130px;
-	margin-left: 5%;
-	margin-right: 20px;
-	border: solid;
-	border-color: #B0D184;
-}
-.box2{
-	font-family: "Century Gothic";
-	font-size: 2em;
-	text-align: center;
-	color: black;
-	float: right;
-	width: 350px;
-	border: solid;
-	border-color: #B0D184;
-	height:auto;
-	margin-top: 15px;
-	margin-bottom: 130px;
-	margin-left: 20px;
-	margin-right: 180px;;
+	font-size: 1.5em;
+	display: block;
+	margin: auto;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
-
-a .box:hover{
-	color: white;
-	background-color:black ;
+.circuloLink:hover{
+	-webkit-filter: grayscale(100%);filter: grayscale(100%);
 }
-a .box1:hover{
-	color: white;
-	background-color:black ;
-}
-a .box3:hover{
-	color: white;
-	background-color:black ;
-}
-video{
-	margin-top: 100px;
-	margin-bottom: 50px;
-}
-.banner{
-	background-image: url(http://www.cmplastik.com/wp-content/uploads/2018/03/Tejerina-pide-ambicio%CC%81n-a-la-UE-para-frenar-el-impacto-del-pla%CC%81stico.jpg);
-	height: 800px;
-	background-size: 100%;
-	background-attachment: fixed;
-	}
-.banner2{
-	background-image: url(https://cronicaglobal.elespanol.com/uploads/s1/26/53/81/7/basura-mar.jpeg);
-	height: 800px;
-	background-size: 100%;
-	background-attachment: fixed;
+hr{
+	border-width: 10px;
+	padding-top: 30px;
 }
