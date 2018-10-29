@@ -2,9 +2,16 @@
 *{ 
 	margin: 0px;
 }
+
+.logo{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
 .header{
-	background-color: darkgray;
-	margin-bottom: 50px;
+	background-color: gray;
+	
+	
 }
 img{
 	object-position: center;
@@ -12,6 +19,14 @@ img{
 	display:block;
 	margin:auto;
 	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+iframe{
+	object-position: center;
+	display: block;
+	margin: auto;
+	padding-bottom: 30px;
 	padding-top: 50px;
 }
 .frase{
@@ -67,6 +82,29 @@ img{
 	-webkit-filter: grayscale(100%);filter: grayscale(100%);
 }
 hr{
+	clear: both;
 	border-width: 10px;
 	padding-top: 30px;
+}
+.gris{
+	border-color: gray;
+}
+.verde{
+	border-color: #95C11F;
+}
+.celeste{
+	border-color: #36A9E1;
+}
+.violeta{
+	border-color: #662483;
+}
+.naranja{
+	border-color: #F39200;
+}
+.btn{
+	float: right;
+	margin-bottom: 30px;
+	background-color: gray;
+	color: white;
+	font-family: "Century Gothic";
 }
