@@ -108,3 +108,7 @@ hr{
 	color: white;
 	font-family: "Century Gothic";
 }
+
+glyphicon glyphicon-star-empty{
+	height: 100px;
+}
