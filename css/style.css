@@ -1,18 +1,22 @@
 @charset "utf-8";
 *{ 
 	margin: 0px;
-}
+} 
+
+/* El logo se debe mantener en el centro*/
 
 .logo{
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-
+ 
+/* El header esta definido por el color gris y sera el que mantenga el logo*/
 .header{
 	background-color: gray;
 	
 	
 }
+/* Las imagenes deben ir centradas de igual manera que su tipografia*/
 img{
 	object-position: center;
 	margin-bottom: 50px;
@@ -22,6 +26,8 @@ img{
 	padding-top: 50px;
 }
 
+/*Los videos deben ir centrados para mantener la estetica */
+
 iframe{
 	object-position: center;
 	display: block;
@@ -29,6 +35,9 @@ iframe{
 	padding-bottom: 30px;
 	padding-top: 50px;
 }
+
+/*Las frases tienen un mayor tamano para destacar, van en color negro para evitar problemas de contraste*/
+/*Van en Century Gothic por ser una tipografia clra y apta para web */ 
 .frase{
 	text-align: center;
 	font-family: "Century Gothic";
@@ -38,6 +47,9 @@ iframe{
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
+
+/*Los titulos iran centrados y tienen que tener un mayor tamano porque tambien indican el inicio de cada seccion*/
+
 .titulo{
 	text-align: center;
 	font-family: "Century Gothic";
@@ -47,6 +59,8 @@ iframe{
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
+
+/*Los subtitulos son pegados al margen y de un menor tamano que los titulos, estos indican cada actividad a realizar */
 
 .subtitulos{
 	text-align: left;
@@ -58,6 +72,7 @@ iframe{
 	padding-top: 10px;
 }
 
+/*El cuerpo de texto estara justificado y describe cada actividad, no es necesario que posea un gran tamano*/
 
 .cuerpotexto{
 	text-align: justify;
@@ -68,6 +83,9 @@ iframe{
 	padding-bottom: 30px;
 	padding-top: 30px;
 }
+
+/* Estos subtitulos van ubicados en el centro y permite dividir la seccion destacada por la seccion de actividads*/
+
 .subtitulos2{
 	text-align: center;
 	font-family: "Century Gothic";
@@ -78,9 +96,14 @@ iframe{
 	padding-top: 30px;
 }
 
+/*Este cambio de color permitira al usuario entender que es un hipervinculo y no solo una imagen*/
+
 .circuloLink:hover{
 	-webkit-filter: grayscale(100%);filter: grayscale(100%);
 }
+
+/*Estas lineas permiten dividir la pagina por secciones y cada color de las lineas corresponde al color de cada seccion*/
+
 hr{
 	clear: both;
 	border-width: 10px;
@@ -101,14 +124,16 @@ hr{
 .naranja{
 	border-color: #F39200;
 }
+
+/* Este sera el indicador para ir al menu de inicio*/
+/* Van a mantener el color de la pagina con la tipografia de color blanco caracteristica de los hiperviculos*/
+
 .btn{
 	float: right;
 	margin-bottom: 30px;
 	background-color: gray;
 	color: white;
 	font-family: "Century Gothic";
+	font-size: 1.5em;
 }
 
-glyphicon glyphicon-star-empty{
-	height: 100px;
-}
